@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.center {
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.btns {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  height: 35px;
+  padding: 0 10px;
+  background-color: black;
+  color: white;
+  font-weight: 600;
+}
+
+.toggle {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.text.hidden {
+  opacity: 0;
+}
